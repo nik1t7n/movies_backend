@@ -1,0 +1,13 @@
+Download ml-latest (big) dataset from this link:
+https://grouplens.org/datasets/movielens/latest/
+
+Extract archive in the "data" folder. All CSVs must be inside
+Then uncomment this code in main.py file:
+```
+# try:
+#     initialize_database()
+# except Exception as e:
+#     raise HTTPException(status_code=500, detail=f"Database error: {str(e)}")
+```
+
+Run app - everything should be fine ^_^
